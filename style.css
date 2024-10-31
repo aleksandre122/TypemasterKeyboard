@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.pre-order-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre-order-box > button{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #E8EFF2;
+    color: #162542;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Barlow", sans-serif ;
+    text-transform: uppercase;
+    border: none;
+}
+
+.keybboard_box > h1{
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 58px;
+    color: #162542;
+    font-family: "Barlow", sans-serif ;
+    text-transform: uppercase;
+}
+
+.keybboard_box{
+width: 445px;
+margin-top: 50px;
+}
+
+.keybboard_box > p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7B8BAD;
+    font-family: "Barlow", sans-serif ;
+    margin-top: 15px;
+}
+
+.button_container{
+display: flex;
+gap: 30px;
+align-items: center;
+}
+
+.button_container > button{
+background-color: #F16718;
+width: 175px;
+height: 58px;
+border-radius: 8px;
+color: white;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+font-family: "Barlow", sans-serif ;
+border: none;
+}
+
+.button_container > span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    font-family: "Barlow", sans-serif ; 
+}
+
+.typemaster_box{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.mechanical_child_box > img{
+    width: 255px;
+    height:480px ;
+    border-radius: 10px ;
+}
+
+.mechanical_main_box{
+    margin-top: 50px;
+    margin-left: 65px; 
+}
+
+.mechanical_text_box{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.mechanical_text_box > h1{
+    color: #162542;
+    font-family: "Barlow", sans-serif  ;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.mechanical_text_box > p{
+    color: #7B8BAD ;
+    font-family: "Barlow", sans-serif  ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px; 
+}
+
+.mechanical_child_box{
+    display: inline;
+    display: flex;
+}
+
+.last_main_box{
+    margin-top: 150px;
+}
+
+.compatible_box > h1{
+    color: #162542;
+    font-family: "Barlow", sans-serif  ;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.last_main_box{
+    display: flex;
+}
+
+.compatible_box > p{
+    font-family: "Barlow", sans-serif  ;
+    color: #7B8BAD;
+    font-size: 16px ;
+    font-weight:500 ;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.wireless_box > h1{
+    color: #162542;
+    font-family: "Barlow", sans-serif  ;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.wireless_box > p{
+    font-family: "Barlow", sans-serif  ;
+    color: #7B8BAD;
+    font-size: 16px ;
+    font-weight:500 ;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.battary_box >h1{
+    color: #162542;
+    font-family: "Barlow", sans-serif  ;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.battary_box >p{
+    font-family: "Barlow", sans-serif  ;
+    color: #7B8BAD;
+    font-size: 16px ;
+    font-weight:500 ;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.rgb_box > h1{
+    color: #162542;
+    font-family: "Barlow", sans-serif  ;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.rgb_box > p{
+    font-family: "Barlow", sans-serif  ;
+    color: #7B8BAD;
+    font-size: 16px ;
+    font-weight:500 ;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.last_text_box{
+    margin-top: 160px;
+}
+
+.last_text_box > span{
+    font-family: "Barlow", sans-serif  ;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+#filter_img{
+ filter: url('#gold-sunset');
+}
+
+
+
